@@ -1,0 +1,31 @@
+<html lang="en">
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Assignment 3</title>
+    </head>
+    <body>
+            <script>
+/*Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print
+"Fizz" along with number and for the multiples of five print "Buzz" along with number. For numbers
+which are multiples of both three and five print "FizzBuzz" along with number.*/
+                    var msg = '';
+                    for(var i=1; i<=100; i++){
+                      msg = i;
+                      if((i%3 == 0) && (i%5 == 0)){
+                        msg+=' FizzBuzz';
+                      }
+                      else if(i%3 == 0){
+                        msg+= ' Fizz';
+                      }
+                      else if(i%5 == 0){
+                        msg+=' Buzz';
+                      }
+                      console.log(msg);
+                    }
+                   
+            </script>
+    </body>
+</html>
